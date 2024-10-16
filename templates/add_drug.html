@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Drug</title>
+</head>
+<body>
+<h1>Add New Drug</h1>
+
+<form method="post">
+    Name: <input type="text" name="name"><br><br>
+    Quantity: <input type="number" name="quantity"><br><br>
+    Price: <input type="text" name="price"><br><br>
+    Expiration Date: <input type="date" name="expiration_date"><br><br>
+    
+    <button type="submit">Add Drug</button>
+</form>
+
+<a href="{{ url_for('index') }}">Back to Drug List</a>
+
+</body>
+</html>
